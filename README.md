@@ -11,7 +11,7 @@ Instructions on how to use Guanaco-lora-7b on windows!
 6. Run `download-model.bat` select `k` for `none of the above`
 7. Enter `decapoda-research/llama-7b-hf` and wait for download to complete
 8. Repeat step 4 and enter `DoNotGoGentle/guanaco-lora-7b`
-9. Follow these [instructions](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134) and add `--load-in-8bit` to the end of `call python server.py --auto-devices --cai-chat` in `start-webui.bat` working
+9. Follow these [instructions](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134) and add `--load-in-8bit` to the end of `call python server.py --auto-devices --cai-chat` in `start-webui.bat`
     > Note: This is only if you wish to have the model loaded in 8bit mode and you have an nvidia gpu, other modes,OS and harware will require different steps.
 10. Run `start-webui.bat` and wait for server to launch.
 
