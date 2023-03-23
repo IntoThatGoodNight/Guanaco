@@ -2,7 +2,7 @@
 Instructions on how to use Guanaco-lora-7b on windows!
 
 ### Installation
-1. Recommend that you download and install [cuda 11.6](https://developer.nvidia.com/cuda-11-6-0-download-archive)
+1. Recommend that you download and install [cuda 11.6](https://developer.nvidia.com/cuda-11-6-0-download-archive) if you have a nvidia gpu
 2. Download [oobabooga-windows.zip](https://github.com/oobabooga/one-click-installers/archive/refs/heads/oobabooga-windows.zip)
 3. Extract `oobabooga-windows.zip` and run `install.bat`, select `nvidia` if you have an nvidia gpu
 4. Open a terminal and activate the conda enviroment using `conda activate`, be sure you are in the correct environment using `conda info --env`
@@ -12,7 +12,7 @@ Instructions on how to use Guanaco-lora-7b on windows!
 7. Enter `decapoda-research/llama-7b-hf` and wait for download to complete
 8. Repeat step 4 and enter `DoNotGoGentle/guanaco-lora-7b`
 9. Follow these [instructions](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134) and add `--load-in-8bit` to the end of `call python server.py --auto-devices --cai-chat` in `start-webui.bat` working
-    > Note: This is only if you wish to have the model loaded in 8bit mode, other modes will require different steps. Loading without any modifications will result in model loaded in full precision. Other OS will require different steps.
+    > Note: This is only if you wish to have the model loaded in 8bit mode and you have an nvidia gpu, other modes,OS and harware will require different steps.
 10. Run `start-webui.bat` and wait for server to launch.
 
 ### Notes
