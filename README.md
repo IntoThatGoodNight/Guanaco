@@ -1,5 +1,6 @@
 # Guanaco
-Instructions on how to use Guanaco-lora-7b on windows!
+Llama LoRA finetuned for instructions using ChatGPT responses!
+Instructions on how to use Guanaco-lora-7b on windows below!
 
 ### Installation
 1. Recommend that you download and install [cuda 11.6](https://developer.nvidia.com/cuda-11-6-0-download-archive) if you have a nvidia gpu
