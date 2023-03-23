@@ -16,7 +16,7 @@ Instructions on how to use Guanaco-lora-7b on windows!
 10. Run `start-webui.bat` and wait for server to launch.
 
 ### Notes
- 1. I trained using a 512 cutoff len
+ 1. I trained for a total of 2 epochs using a 512 cutoff len
  2. I generated the comparison respones with a max token length of 2000
  3. I wrote this at midnight so there may be some errors
 
