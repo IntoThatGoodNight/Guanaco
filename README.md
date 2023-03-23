@@ -1,6 +1,6 @@
 # Guanaco
 Llama LoRA finetuned for instructions using ChatGPT responses!
-Instructions on how to use Guanaco-lora-7b on windows below!
+Instructions on how to use Guanaco-lora-7b on windows with a webui below!
 
 ### Installation
 1. Recommend that you download and install [cuda 11.6](https://developer.nvidia.com/cuda-11-6-0-download-archive) if you have a nvidia gpu
@@ -18,7 +18,7 @@ Instructions on how to use Guanaco-lora-7b on windows below!
 
 ### Notes
  1. I trained for a total of 2 epochs using a 512 cutoff len
- 2. I generated the comparison respones with a max token length of 2000
+ 2. I generated the comparison respones with a max token length of 2000 using [Alpaca-Lora generate.py](https://github.com/tloen/alpaca-lora)
  3. I wrote this at midnight so there may be some errors
 
 ### Comparison
